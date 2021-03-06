@@ -3,9 +3,9 @@ require "language/go"
 class SshRandomartd < Formula
   desc "Serving randomart to OpenSSH"
   homepage "https://git.sr.ht/~ilammy/ssh-randomartd"
-  url "https://git.sr.ht/~ilammy/ssh-randomartd/archive/v0.99.0.tar.gz"
-  version "0.99.0"
-  sha256 "d6f58821f1273fa406987a1128911d26e46b043001f39c38efd29ef432f5650c"
+  url "https://git.sr.ht/~ilammy/ssh-randomartd/archive/v1.0.tar.gz"
+  version "1.0"
+  sha256 "a0d22dd658aecde3814c2c5b837d1e2c39ea0ff1c26283146e1c6ba1d8c9627f"
   license "GPL-3.0-or-later"
 
   bottle do
