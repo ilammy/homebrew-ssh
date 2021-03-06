@@ -9,8 +9,8 @@ class SshRandomartd < Formula
   license "GPL-3.0-or-later"
 
   bottle do
-    root_url "https://git.sr.ht/~ilammy/ssh-randomartd/refs/download/v0.99.0"
-    sha256 cellar: :any_skip_relocation, catalina: "02ab703b08d692d8b1482d572047dd5c298bb979949a6f18de2359fae53b7a02"
+    root_url "https://git.sr.ht/~ilammy/ssh-randomartd/refs/download/v1.0"
+    sha256 cellar: :any_skip_relocation, catalina: "75d58ea55ece28581ad89ce3ee9229e771ea142a4099240b914e02c66b3c2513"
   end
 
   depends_on "go" => :build
