@@ -8,6 +8,11 @@ class SshRandomartd < Formula
   sha256 "d6f58821f1273fa406987a1128911d26e46b043001f39c38efd29ef432f5650c"
   license "GPL-3.0-or-later"
 
+  bottle do
+    root_url "https://git.sr.ht/~ilammy/ssh-randomartd/refs/download/v0.99.0"
+    sha256 cellar: :any_skip_relocation, catalina: "02ab703b08d692d8b1482d572047dd5c298bb979949a6f18de2359fae53b7a02"
+  end
+
   depends_on "go" => :build
 
   go_resource "github.com/mattn/go-sixel" do
