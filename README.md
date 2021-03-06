@@ -22,26 +22,32 @@ brew install openssh-randomart
 
 ### Caveats
 
-Note that it **conflicts** with the vanilla `openssh`
-which you'll need to either uninstall or unlink:
+Note that `openssh-randomart` **conflicts** with vanilla `openssh`.
+If you have it, you'll need to either uninstall or unlink it:
 
 ```bash
 brew unlink openssh
 ```
 
-After installation you would want to start the `ssh-randomartd` service:
+After installation you'd like to start the `ssh-randomartd` service:
 
 ```bash
 brew services start ssh-randomartd
 ```
 
-## Configuration
+And you'd want to put this into your `~/.ssh/config`:
 
-See [~ilammy/ssh-randomartd](https://git.sr.ht/~ilammy/ssh-randomartd) repo
-for documentation.
+```
+# Display randomart for connections
+VisualHostKey=yes
+```
+
+## Documentation
+
+See [**~ilammy/ssh-randomartd**](https://git.sr.ht/~ilammy/ssh-randomartd).
 
 ## License
 
-Formulas are distributed under the [BSD 2-clause license](LICENSE).
+Formulas are distributed under the [**BSD 2-clause** license](LICENSE).
 
 Individual software packages have their own terms, see `brew info`.
