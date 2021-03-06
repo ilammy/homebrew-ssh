@@ -3,7 +3,7 @@ OpenSSH
 
 Homebrew formulas for OpenSSH with improved randomart.
 
-<!-- TODO: eyecatch goes here -->
+<img width="682" alt="eyecatch of ssh with feline randomart" src="https://user-images.githubusercontent.com/1256587/110200282-ca8d8100-7e65-11eb-8d0f-b765f77876f6.png">
 
 ## Installation
 
