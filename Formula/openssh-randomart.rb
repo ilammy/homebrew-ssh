@@ -12,6 +12,11 @@ class OpensshRandomart < Formula
     regex(/href=.*?openssh[._-]v?(\d+(?:\.\d+)+(?:p\d+)?)\.t/i)
   end
 
+  bottle do
+    root_url "https://git.sr.ht/~ilammy/openssh-portable/refs/download/v8.5p1+randomart"
+    sha256 catalina: "f87fb0347ff589f8ab14cdfff72ec94c6119ea5cb4823c1ff03facc976cc1257"
+  end
+
   depends_on "pkg-config" => :build
   depends_on "ldns"
   depends_on "libfido2"
